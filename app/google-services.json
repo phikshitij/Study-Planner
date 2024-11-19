@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1026996048068",
+    "firebase_url": "https://study-planner-7a0f6-default-rtdb.firebaseio.com",
+    "project_id": "study-planner-7a0f6",
+    "storage_bucket": "study-planner-7a0f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026996048068:android:e1fbae51c8d6b84558f991",
+        "android_client_info": {
+          "package_name": "com.example.studyplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5aQcKDGGEyl73AJ5kE0oh6cUjUfk7iUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

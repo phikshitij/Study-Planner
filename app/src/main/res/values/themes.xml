@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudyPlanner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.StudyPlanner" parent="Base.Theme.StudyPlanner" />
+    
+    <style name="dialoge">
+        <item name="android:windowBackground">@drawable/empty_bac</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+        
+
+
+    </style>
+</resources>

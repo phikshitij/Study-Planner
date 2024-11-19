@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainQZActivity">
+
+    <ImageView
+        android:id="@+id/quizIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/quiz_icon"
+
+        />
+    <TextView
+        android:id="@+id/chooseTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/quizIcon"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#99FFFFFF"
+        android:text="Choose Topic"
+
+        />
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/chooseTopic"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:weightSum="2"
+
+        >
+        <LinearLayout
+            android:id="@+id/javaLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cn"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="CN"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/phpLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/software" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="SE"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:weightSum="2"
+
+        >
+        <LinearLayout
+            android:id="@+id/htmlLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="IP"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/androidLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/tcs"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="TCS"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startQuizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:layout_below="@+id/layout2"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/round_back_green20"
+        />
+
+</LinearLayout>

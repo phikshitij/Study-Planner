@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Study planner</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="Login">Login</string>
+    <string name="register">Register</string>
+    <string name="Register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_rgister">click_to_register</string>
+    <string name="logout">Logout</string>
+    <string name="menu_button_description">menu_button_description</string>
+    <string name="let_s_quiz">Let\'s Quiz</string>
+
+    <string-array name="mains">
+        <item>Timetable</item>
+        <item>Subjects</item>
+        <item>Resources</item>
+        <item>Video Resources</item>
+        <item>Quiz test</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>des 1</item>
+        <item>des 2</item>
+        <item>des 3</item>
+        <item>des 4</item>
+        <item>des 5</item>
+    </string-array>
+</resources>
